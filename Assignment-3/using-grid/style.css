@@ -1,0 +1,122 @@
+*{
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: purple;
+    display: inline-block;
+    width:97%;
+    padding: 30px 20px;
+}
+header img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+header p{
+    float: left;
+    background-color: purple;
+    width: 40%;
+    padding: 20px 50px;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 0;
+}
+
+.content{
+    display: inline-block;
+    width: 100%;
+}
+.left{
+    padding: 10px;
+    margin: 20px;
+    margin-left: 0px;
+    
+    width: 33%;
+    background-color: blueviolet;
+    float: left;
+    height: 300px;
+}
+.right{
+    padding: 20px 18px;
+    margin: 21px 8px;
+    margin-right: 0;
+    padding-right: 0;
+    width: 55%;
+    float: right;
+    background-color: darkseagreen;
+    padding-right: 37px;
+    
+}
+.up{
+    background-color: chartreuse;
+    height: 110px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.down{
+    background-color: chocolate;
+    height: 170px;
+    padding: 20px;
+}
+footer{
+    background-color: rgb(6, 173, 72);
+    height: 80px;
+    padding: 15px 0;
+    margin: 0 10px ;
+}
+@media only screen and (max-width: 900px) {
+    header{
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 90px;
+        margin: 10px 1px;
+    }
+    header p{
+        float: left;
+        background-color: purple;
+        width: 56%;
+        padding: 26px 21px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0 0;
+        color:white;
+    }
+    header img{
+        float: left;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+    .content{
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .left{
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .right{
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px 0 ;
+    }
+    footer{
+        width: 100%;
+        margin: 10px 0;
+        padding: 0;
+    }
+    
+}
