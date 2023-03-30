@@ -1,0 +1,35 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.myprofile{
+    display: flex;
+    margin: 25px 10px;
+    padding: 10px 0px;
+}
+.profile h1{
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+img{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+}
+.image{
+    /* background-color: aquamarine; */
+    margin: 0 85px 0 0px;
+}
+table{
+    width: 650px;
+    border-collapse: collapse;
+}
+table th, tr, td{
+    border: 1.5px solid black;
+}
+th, td{
+    text-align: left;
+    padding: 10px 5px;
+}
